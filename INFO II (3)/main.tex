@@ -1,0 +1,62 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{cite}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{La memoria electrónica}
+            
+        \vspace{0.5cm}
+        \LARGE
+        Informática II
+            
+        \vspace{1.5cm}
+            
+        \textbf{Manuel Felipe Salazar Burgos}
+            
+        \vfill
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Universidad de Antioquia\\
+        Medellín\\
+        Septiembre de 2020
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\section{Citación}
+Documento basado en el artículo: Como funciona la memoria de una computadora \textbf{Augusto Salazar}\cite{Salazar}
+\section{Introducción}\label{intro}
+A lo largo de los años, la tecnología a tomado gran importancia en la vida del ser humano, desde máquinas que realizaban el trabajo que podían hacer 20 hombres juntos en la época de la revolución industrial, hasta ordenadores que realizan multitud de tareas que son imposibles de procesar por un cerebro humano, en esta ocasión nos enfocaremos en estos ordenadores, y en específico en sus componentes, haciendo enfasis así en uno de sus "órganos" vitales, la memoria.
+\section{La memoria, vital para un ordenador} \label{memory}
+La memoria informática, o como coloquialmente se le llama, la memoria, se define como componente imprescindible del ordenador que mantiene disponibles las instrucciones para el microprocesador o CPU pueda ejecutarlas, así, conociendo su definición, podemos conocer los tipos de memorias que hay, sus diferencias y sus labores en los ordenadores.
+\subsection{Tipos de memoria}
+En el hardware de una computadora podemos encontrar tres principales tipos de memoria, como lo son la memoria ROM,la memoria RAM y la memoria Cache; La memoria ROM, como lo dicen sus siglas en inglés "Read Only Memory", es la encargada estrictamente de la lectura de archivos en las computadoras, esta es un poco más lenta que las demás pero posee la cualidad de que al apagar el ordenador sigue almacenando los archivos que se encontraran en ella. Por ejmplo, en esta encontramos el sistema operativo, todos nuestros documentos, fotos, programas, etc. Dentro de esta podemos encontrar a la memoria virtual, la cual se clasifica como una parte de la memoria ROM para poder suplir algunas necesidades o carencias que posea el ordenador a la hora de ejecutar sus servicios.
+
+ Por otra parte, encontramos a la memoria ram "Random Access Memory", esta se encarga tanto de lectura como escritura en un lapso de tiempo temporal, su velocidad es mucho mayor a la velociad de la memoria ROM pero su capacidad de almacenamiento es màs baja, al ser desconectada de una fuente de poder, pierde todos los datos que se encontraban almacenados en ella.
+ 
+En última instancia se encuentra la memoria cache, la cual, posee mayor velocidad que las dos memorias ya mencionadas, esta se encuentra en la mayoria de ocasiones en los nucleos de el microprocesador de nuestro sistema. La memoria cache posee un espacio muy pequeño comparado con los otros espacios que poseen la memoria RAM y la memoria ROM, su capacidad de lectura y escritura son su mayor fuerte, haciendola vital para realizar diversos procesos que requieren de mucha velocidad en los ordenadores.
+
+\subsection{Gestión de memoria en los ordenadores} 
+La gestión de memoria en un ordenador, es fundamental para su funcionamiento, ya que esta se encarga de tanto entregar,como liberar la memoria, que ya no se usa en el sistema, el encargado de esto es el sistema operativo, así mismo se optimiza el uso de memoria para mejorar el rendimiento de las funciones del computador. Para así dar una buena gestión de memoria, los tres tipos pincipales de memorias deben encontrarse armonizadas para dar lo mejor de si, es decir cada una complementa a las demás cuando se necesitan, por ejemplo, la memoria cache actúa ayudando a la memoria ram cuando se encuentra saturada y la memoria virtual actúa ayudando de la misma forma.
+\subsection{Velocidad en las memorias} 
+En los distintos tipos de memorias, existen unas que poseen más velocidad y por consiguiente mejor rendimiento que otras, por qué ocurrre esto?, desde un punto de vista más allá de la conductividad de los materiales con que se hacen estas, encontramos sus velocidades de lectura y escritura, lo cuál es vital, ya que entre mayor sean estas, más rapido se procesaran y leeran los archivos por el computador, estas velocidades se ven afectadas por los Mhz, que es una medida de frecuencia que se utiliza en la informática, es decir los ciclos que pueden realizar en un instante de tiempo estos dispositivos, por consiguiente entre más Mhz tengan, más veloces serán. La velocidad de los distintos tipos de memoria en un ordenador es extremadamente importante para su funcionamiento, ya que si no se tiene una estabilidad con todos los componentes del computador, este no funcionará de su manera más óptima, explicaré esto con un pequeño ejemplo. Pensemos en la siguiente situación, encontramos a 4 personas que se encuentran en una fila, las tres primeras personas, quienes seran, la memoria RAM, la memoria cache y la memoria ROM deben de transportar un ladrillo hasta la cuarta persona, la cuál será el procesadro, esta debe de cortar aquél ladrillo con una máquina especial; ¿que ocurre si las tres primeras personas no transportan lo necesariamente rápido aquel ladrillo?, la última persona se quedará esperando hasta que este llegue, ya que su proceso es prácticamente instantaneo gracias a la maquina, por ende todos deben trabajar a la misma velocidad para dar buena marcha al trabajo, de la misma forma funciona un ordenador, si un componente no es lo suficientemente velóz para llevar los datos hasta el procesador, este se quedará esperando hasta que lleguen para así poder procesarlos.
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{bliblio}
+\end{document}
